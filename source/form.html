@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Кэт энерджи</title>
+</head>
+
+<body class="page__body">
+  <header class="page-header">
+    <a class="page-header__logo" href="#">
+      <img src="./img/logo.svg" width="34" height="38" alt="Кэт энерджи лого">
+      <img src="./img/logo-text.svg" width="101" height="18" alt="Кэт энерджи">
+    </a>
+    <button class="page-header__nav-toggle" type="button">
+      <span class="visually-hidden">Открыть меню</span>
+    </button>
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="/index.html">Главная</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="/catalog.html">Каталог продукции</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link" href="#">Подбор программы</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page-main">
+    <h1 class="page-main__header">Подбор программы</h1>
+    <p class="page-main__intro">
+      Заполните анкету, и мы подберем программу питания для вашего кота
+    </p>
+    <form class="questionary" method="POST" action="https://echo.htmlacademy.ru/">
+      <fieldset class="questionary__cat-info">
+        <legend class="visually-hidden">Данные питомца</legend>
+        <label class="questionary__label" for="cat-name">
+          <span>ИМЯ:*</span>
+          <input class="input" id="cat-name" name="cat-name" type="text" value="Барсик" required>
+        </label>
+        <label class="questionary__label" for="cat-weight">
+          <span>Вес (кг):*</span>
+          <input class="input" id="cat-weight" name="cat-weight" type="number" value="7" required>
+        </label>
+        <label class="questionary__label" for="cat-age">
+          <span>Возраст (лет):</span>
+          <input class="input" id="cat-age" name="cat-age" type="number" value="7">
+        </label>
+      </fieldset>
+      <fieldset class="questionary__goal">
+        <legend class="visually-hidden">Ваша цель</legend>
+        <label class="questionary__label" for="weight-loss">
+          <input class="control-input" id="weight-loss" name="goal" value="weight-loss" type="radio" checked>
+          <span>похудение</span>
+        </label>
+        <label class="questionary__label" for="weight-gain">
+          <input class="control-input" id="weight-gain" name="goal" value="weight-gain" type="radio">
+          <span>Набор массы</span>
+        </label>
+        <label class="questionary__label" for="not-decided">
+          <input class="control-input" id="not-decided" name="goal" value="not-decided" type="radio">
+          <span>Не знаю (Нужен ваш совет)</span>
+        </label>
+      </fieldset>
+      <fieldset class="questionary__contact">
+        <legend>Контактные данные (владельца кота)</legend>
+        <label class="questionary__label" for="email">
+          <span>E-mail:*</span>
+          <input class="input" id="email" name="email" type="email" value="kuklachev@gmail.com" required>
+        </label>
+        <label class="questionary__label" for="phone">
+          <span>Телефон:*</span>
+          <input class="input" id="phone" name="phone" type="tel" value="8 (960) 900-60-90" required>
+        </label>
+      </fieldset>
+      <fieldset class="questionary__comments">
+        <legend>Комментарий</legend>
+        <textarea class="input input-comments" rows="8" name="comments"
+          placeholder="Расскажите обо всех повaдках кота"></textarea>
+      </fieldset>
+      <fieldset class="questionary__additionally">
+        <legend>Дополнительно</legend>
+        <label class="questionary__label" for="sweetener">
+          <input class="input" id="sweetener" name="sweetener" type="checkbox" checked>
+          <span>сахарозаменитель</span>
+        </label>
+        <label class="questionary__label" for="water">
+          <input class="input" id="water" name="water" type="checkbox">
+          <span>питьевая вода</span>
+        </label>
+        <label class="questionary__label" for="milk">
+          <input class="input" id="milk" name="milk" type="checkbox">
+          <span>молоко</span>
+        </label>
+        <label class="questionary__label" for="vitamins">
+          <input class="input" id="vitamins" name="vitamins" type="checkbox">
+          <span>витамины</span>
+        </label>
+      </fieldset>
+      <button class="questionary__submit button" type="submit">отправить заявку</button>
+      <span class="questionary__mandatory">* — Обязательные поля</span>
+    </form>
+  </main>
+  <footer class="page-footer">
+    <section class="invitation invitation--form">
+      <h2 class="visually-hidden">Приглашение к сотрудничеству</h2>
+      <div class="invitation__info">
+        <p class="invitation__text">
+          Приглашаем к сотрудничеству дилеров!
+        </p>
+        <p class="invitation__contacts">
+          <span class="invitation__address">ул. Большая Конюшенная, д. 19/8</span>
+          <span class="invitation__city">Санкт-Петербург</span>
+        </p>
+      </div>
+      <div class="invitation__map">
+        <img src="./img/map.png" width="320" height="362" alt="Карта">
+        <img class="invitation__map-pin" src="./img/map-pin.png" width="57" height="53" alt="Мы здесь">
+      </div>
+    </section>
+    <div class="page-footer__links">
+      <a class="page-footer__logo" href="#">
+        <img src="./img/logo-text.svg" width="101" height="18" alt="Кэт энерджи">
+      </a>
+      <ul class="page-footer__social social">
+        <li class="social__item">
+          <a class="social__link" href="https://vk.com/htmlacademy">
+            <span class="visually-hidden">ВКонтакте</span>
+            <img src="./img/vkontakte.svg" width="23" height="16" alt="ВКонтакте">
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="https://www.instagram.com/htmlacademy">
+            <span class="visually-hidden">Инстаграм</span>
+            <img src="./img/instagram.svg" width="16" height="16" alt="Инстаграм">
+          </a>
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="https://www.facebook.com/htmlacademy">
+            <span class="visually-hidden">Фейсбук</span>
+            <img src="./img/facebook.svg" width="22" height="22" alt="Фейсбук">
+          </a>
+        </li>
+      </ul>
+      <a class="page-footer__academy-link" href="https://htmlacademy.ru/intensive/adaptive">
+        <span>HTML Academy</span>
+        <img src="./img/htmlacademy.svg" width="27" height="34" alt="HTML Academy">
+      </a>
+    </div>
+  </footer>
+</body>
+
+</html>
