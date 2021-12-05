@@ -1,0 +1,85 @@
+.achievements {
+  padding-top: 25px;
+  padding-bottom: 40px;
+  background-color: $gray;
+
+  .achievements__title {
+    margin: 0;
+    margin-bottom: 40px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: $basic-black;
+  }
+
+  .achievements__story {
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .achievements__list {
+    margin: 0;
+    display: flex;
+  }
+
+  .achievements__value {
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: $basic-black;
+  }
+
+  .achievements__description {
+    margin: 0;
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+  .achievements__expenses {
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .achievements__controls {
+    display: flex;
+  }
+
+  .achievements__button {
+    border: none;
+    background: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: $basic-black;
+    cursor: pointer;
+  }
+
+  .achievements__progress {
+    position: relative;
+    display: block;
+    width: 86px;
+    height: 14px;
+    border: 1px solid $special-gray;
+    background-color: $basic-white;
+    box-sizing: border-box;
+    border-radius: 6px;
+
+    &::before {
+      position: absolute;
+      top: 25%;
+      left: 6px;
+      width: 36px;
+      height: 6px;
+      background-color: $basic-green;
+      border-radius: 6px;
+      content: "";
+    }
+  }
+}

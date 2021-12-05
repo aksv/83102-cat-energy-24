@@ -1,1 +1,19 @@
-// Начните писать стили здесь
+@import "./global/variables";
+@import "./global/global";
+@import "./global/mixins";
+@import "./page-header";
+@import "./page-main";
+@import "./main-nav";
+@import "./choose-program";
+@import "./catalog-preview";
+@import "./questions";
+@import "./achievements";
+@import "./page-footer";
+@import "./invitation";
+@import "./social";
+@import "./questionary";
+@import "./catalog-main";
+@import "./product-card";
+@import "./supplementary-goods";
+@import "./product-card-brief";
+@import "./bonus";

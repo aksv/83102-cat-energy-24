@@ -1,0 +1,45 @@
+.questionary {
+  padding-top: 39px;
+  font-family: "Oswald", sans-serif;
+
+  .questionary__cat-info,
+  .questionary__goal,
+  .questionary__contact,
+  .questionary__comments,
+  .questionary__additionally {
+    @include reset-fieldset;
+  }
+
+  .questionary__legend {
+    font-size: 24px;
+    line-height: 26px;
+    color: $basic-black;
+  }
+
+  .questionary__label {
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+  }
+
+  .questionary__submit {
+    width: 100%;
+    min-height: 40px;
+    border: none;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: $basic-white;
+    cursor: pointer;
+  }
+
+  .questionary__mandatory {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: $basic-black;
+  }
+}

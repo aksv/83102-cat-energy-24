@@ -1,0 +1,23 @@
+.supplementary-goods {
+  padding-bottom: 36px;
+
+  .supplementary-goods__title {
+    margin: 0;
+    margin-bottom: 36px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 24px;
+    color: $basic-black;
+  }
+
+  .supplementary-goods__list {
+    @include reset-list;
+  }
+
+  .supplementary-goods__item {
+    &:not(:last-child) {
+      margin-bottom: 19px;
+    }
+  }
+}
