@@ -4,24 +4,24 @@
   &--dark {
     background-color: $basic-gray;
   }
+}
 
-  .page-footer__links {
-    padding-top: 39px;
-    padding-bottom: 22px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: $basic-gray;
-  }
+.page-footer__links {
+  padding-top: 39px;
+  padding-bottom: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: $basic-gray;
+}
 
-  .page-footer__academy-link {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-top: 22px;
-    font-size: 16px;
-    line-height: 18px;
-    text-decoration: none;
-    color: inherit;
-  }
+.page-footer__academy-link {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 22px;
+  font-size: 16px;
+  line-height: 18px;
+  text-decoration: none;
+  color: inherit;
 }

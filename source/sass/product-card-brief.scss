@@ -1,29 +1,29 @@
 .product-card-brief {
   padding-top: 13px;
+}
 
-  .product-card-brief__title {
-    margin: 0;
-    margin-bottom: 13px;
-    font-family: "Oswald", sans-serif;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 16px;
-    text-transform: uppercase;
-  }
+.product-card-brief__title {
+  margin: 0;
+  margin-bottom: 13px;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
 
-  .product-card-brief__price {
-    width: 100%;
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: space-between;
-    font-size: 14px;
-    line-height: 14px;
-  }
+.product-card-brief__price {
+  width: 100%;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 14px;
+}
 
-  .product-card-button {
-    @include catalog-button;
-    width: 100%;
-    min-height: 40px;
-    font-family: "Oswald", sans-serif;
-  }
+.product-card-button {
+  @include catalog-button;
+  width: 100%;
+  min-height: 40px;
+  font-family: "Oswald", sans-serif;
 }

@@ -2,14 +2,14 @@
   box-sizing: border-box;
   padding: 10px 20px 18px;
   background-color: $basic-white;
+}
 
-  .page-header__logo {
-    @include reset-link;
-  }
+.page-header__logo {
+  @include reset-link;
+}
 
-  .page-header__nav-toggle {
-    border: none;
-    background-color: inherit;
-    cursor: pointer;
-  }
+.page-header__nav-toggle {
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
 }

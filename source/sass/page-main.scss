@@ -1,28 +1,28 @@
 .page-main {
   background-color: $basic-white;
 
-  .page-main__header {
-    margin: 0;
-    font-family: "Oswald", sans-serif;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 36px;
-    color: $basic-black;
-  }
-
-  .page-main__intro {
-    width: 226px;
-    margin: 0;
-    font-family: "Oswald", sans-serif;
-    font-size: 14px;
-    line-height: 18px;
-    text-transform: uppercase;
-    color: $basic-black;
+  &--catalog {
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
-.page-main--catalog {
-  box-sizing: border-box;
-  padding-left: 20px;
-  padding-right: 20px;
+.page-main__header {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  color: $basic-black;
+}
+
+.page-main__intro {
+  width: 226px;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: $basic-black;
 }

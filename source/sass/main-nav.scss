@@ -1,15 +1,13 @@
-.main-nav {
-  .main-nav__list {
-    @include reset-list;
-  }
+.main-nav__list {
+  @include reset-list;
+}
 
-  .main-nav__link {
-    @include reset-link;
-    font-family: "Oswald", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 20px;
-    text-transform: uppercase;
-    color: $basic-black;
-  }
+.main-nav__link {
+  @include reset-link;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $basic-black;
 }
