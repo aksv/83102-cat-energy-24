@@ -1,0 +1,48 @@
+.catalog-main {
+  padding-top: 49px;
+}
+
+.catalog-main__list {
+  @include reset-list;
+}
+
+.catalog-main__item {
+  &:not(:last-child) {
+    margin-bottom: 11px;
+  }
+}
+
+.catalog-main__show-more {
+  padding-top: 53px;
+  background-image: url("../img/catalog/mobile/plus.svg");
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+}
+
+.catalog-main__show-more-title {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $cod-gray;
+}
+
+.catalog-main__show-more-text {
+  margin: 0;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.catalog-main__show-more-link {
+  @include catalog-button;
+  @include catalog-button-dark;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40px;
+  font-family: "Oswald", sans-serif;
+  text-decoration: none;
+}

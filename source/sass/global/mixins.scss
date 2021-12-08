@@ -1,0 +1,29 @@
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin reset-link {
+  text-decoration: none;
+}
+
+@mixin reset-fieldset {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+@mixin catalog-button {
+  border: none;
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: $basic-white;
+}
+
+@mixin catalog-button-dark {
+  background-color: $basic-gray;
+  color: $special-dark-gray;
+}
